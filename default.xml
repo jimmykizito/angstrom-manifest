@@ -5,9 +5,9 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="http://git.shr-project.org" name="shr"/>
   <remote fetch="http://git.yoctoproject.org/git" name="yocto"/>
-  
+
   <default revision="master" sync-j="4"/>
-  
+
   <project name="96boards/meta-96boards" path="layers/meta-96boards" remote="github"/>
   <project name="Angstrom-distribution/meta-angstrom" path="layers/meta-angstrom" remote="github" revision="master">
     <copyfile dest="setup-environment" src="../../.repo/manifests/setup-environment"/>
@@ -22,7 +22,6 @@
   <project name="koenkooi/meta-dominion" path="layers/meta-dominion" remote="github"/>
   <project name="koenkooi/meta-edison" path="layers/meta-edison" remote="github"/>
   <project name="koenkooi/meta-maker" path="layers/meta-maker" remote="github"/>
-  <project name="koenkooi/meta-photography" path="layers/meta-photography" remote="github"/>
   <project name="koenkooi/meta-uav" path="layers/meta-uav" remote="github"/>
   <project name="kraj/meta-altera" path="layers/meta-altera" remote="github"/>
   <project name="kraj/meta-nslu2" path="layers/meta-nslu2" remote="github" revision="21e90cd6f720c615a067318571178ee230ca1655"/>
@@ -44,4 +43,5 @@
   <project name="openembedded/openembedded-core" path="layers/openembedded-core" remote="github"/>
   <project name="shr-distribution/meta-smartphone" path="layers/meta-smartphone" remote="github"/>
   <project name="superna9999/meta-meson" path="layers/meta-meson" remote="github"/>
+  <project name="jimmykizito/meta-de10-nano" path="layers/meta-de10-nano" remote="github"/>
 </manifest>
